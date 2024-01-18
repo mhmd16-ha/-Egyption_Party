@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +10,86 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-  <header class="vh-100 d-flex">
-    <div id="slide" class="bg-black vh-100 d-flex flex-column">
-      <i  class="fa-solid fa-xmark fs-3 text-light text-end p-2"></i>
-        <a href="#Home">Home</a>
-        <a href="#sliderDown">Duration</a>
-        <a href="#count">Details</a>
-        <a href="#contact">contact</a>
-    </div>
- 
-    <div class="d-flex vh-100 justify-content-center flex-column w-100">
-        <h1 class="text-light display-4 fw-semibold mx-auto">ُEgyption Party</h1>
-        <p class="text-light mx-auto">Let's have Fun</p>
-       <span id="open" class="text-light fs-3 px-1 bar z-3"> <i class="fa-solid fa-bars px-3 bar"></i>Open</span>
+    <header class="vh-100 d-flex" id="Home">
+        <div class=" vh-100 d-flex flex-row position-fixed top-0 bottom-0">
+            <div id="slide" class="bg-black d-flex flex-column">
+                <i class="fa-solid fa-xmark fs-3 text-light text-end p-2"></i>
+                <a href="#Home">Home</a>
+                <a href="#sliderDown">Duration</a>
+                <a href="#count">Details</a>
+                <a href="#contact">contact</a>
+            </div>
+
         </div>
 
-  </header>
-  <script src="js/jquery-3.7.1.min.js"></script>
-  <script src="js/main.js"></script>
+        <div id="homeItem" class="d-flex vh-100 justify-content-center flex-column w-100">
+            <h1 class="text-light display-4 fw-semibold mx-auto">ُEgyption Party</h1>
+            <p class="text-light mx-auto">Let's have Fun</p>
+            <span id="open" class="text-light fs-3 px-1 bar z-3"> <i class="fa-solid fa-bars px-3 bar"></i>Open</span>
+        </div>
+
+    </header>
+    <section class="pt-5 pb-5  mt-5 " id="Duration">
+        <div class="item w-50 mx-auto text-center ">
+            <h2 class=" p-0 singer m-0">ٍSinger one</h2>
+            <p class=" p-0 singerText m-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+        <div class="item w-50 mx-auto text-center ">
+            <h2 class=" p-0 singer m-0">ٍSinger Two</h2>
+            <p class=" p-0 singerText m-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+        <div class="item w-50 mx-auto text-center ">
+            <h2 class=" p-0 singer m-0">ٍSinger three</h2>
+            <p class=" p-0 singerText m-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+        <div class="item w-50 mx-auto text-center ">
+            <h2 class=" p-0 singer m-0">ٍSinger four</h2>
+            <p class=" p-0 singerText m-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+
+    </section>
+    <section class="count mt-5" id="count">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 countItem">
+                    <h3>-831 D</h3>
+                </div>
+                <div class="col-3 countItem">
+                    <h3>31 H</h3>
+                </div>
+                <div class="col-3 countItem">
+                    <h3>31 M</h3>
+                </div>
+                <div class="col-3 countItem">
+                    <h3>31 S</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -19,3 +19,24 @@ a{
     width: 0;
     overflow: hidden;
 }
+.singer{
+    background-color: #e68285;
+    color: white;
+}
+.singerText{
+    display: none;
+    background-color: #cccccc;
+}
+.count{
+    padding-block: 50px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.253),rgba(255, 0, 0, 0.39)),url(../images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.countItem h3{
+    padding: 30px;
+    color: white;
+    border: solid white .5px;
+    text-align: center;
+}
