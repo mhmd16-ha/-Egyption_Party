@@ -3,6 +3,6 @@ $("#slide i").click(function(){
     // console.log("fff");
 })
 $("#open").click(function(){
-    $("#slide").animate({width:'25%'},200)
+    $("#slide").animate({width:'250px'},200)
     // $("#slide a ").fadeIn(100)
 })
