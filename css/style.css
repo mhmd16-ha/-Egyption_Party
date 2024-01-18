@@ -1,0 +1,21 @@
+header{
+    background-image:linear-gradient(rgba(255, 0, 0, 0.253),rgba(255, 0, 0, 0.39)), url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bar ,#slide i{
+    cursor: pointer;
+}
+a{
+  text-decoration: none;
+  padding-block: 15px;  
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  /* display: none; */
+}
+#slide{
+    /* display: none; */
+    width: 0;
+    overflow: hidden;
+}
