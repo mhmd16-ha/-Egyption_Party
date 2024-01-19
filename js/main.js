@@ -12,3 +12,13 @@ $(".singer").click(function(){
     $('.singerText').not($(this).next()).slideUp(500);
     $(this).next().slideToggle(500)
 })
+var max=100;
+$("#message").keyup(function(){
+    var length=$(this).val().length;
+    var val=max-length;
+   if(val<=0){
+    $("#count").text("your available character finished");
+   }else{
+    $("#count").text(val)
+   }
+})
